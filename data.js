@@ -21,7 +21,8 @@ const 강의정보 = {
 
   // 다운로드 자료 (없으면 빈 배열 [] 로 두세요)
   자료: [
-    { 이름: "강의 자료 모음 (노션)", 링크: "https://chlorinated-butter-184.notion.site/AI-6-25-b3b30b379d4f82ceabfe0150be81a632", 설명: "구글드라이브·차시별 실습자료·링크 모음" }
+    { 이름: "강의 자료 모음 (노션)", 링크: "https://chlorinated-butter-184.notion.site/AI-6-25-b3b30b379d4f82ceabfe0150be81a632", 설명: "구글드라이브·차시별 실습자료·링크 모음" },
+    { 이름: "인재 키움 만족도 조사", 링크: "https://docs.google.com/forms/d/e/1FAIpQLScRcr5EA7Q9zoRHHsHQACbGczAuznU9Fh8-H504_8Lo3-QPtw/viewform", 설명: "강의가 끝나면 꼭 참여해 주세요 🙏", 버튼: "참여하기" }
   ],
 
   /* ---------------------------------------------------------------------
