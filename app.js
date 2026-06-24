@@ -48,7 +48,9 @@ function renderIndex() {
       .map(
         (f) => `
         <div class="file">
-          <span class="ico">📄</span>
+          ${f.이미지
+            ? `<a href="${esc(f.이미지)}" target="_blank" rel="noopener"><img src="${esc(f.이미지)}" alt="QR" style="width:76px;height:76px;border-radius:8px;object-fit:contain;background:#fff;border:1px solid var(--border)"></a>`
+            : `<span class="ico">📄</span>`}
           <div>
             <div class="name">${esc(f.이름)}</div>
             <div class="desc">${esc(f.설명 || "")}</div>
